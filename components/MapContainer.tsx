@@ -2,6 +2,9 @@ import { LatLngExpression } from "leaflet";
 import Map from "./Map";
 import Info from "./Info";
 import { IPLocation } from "@/types";
+import dynamic from "next/dynamic";
+
+const DynamicMap = dynamic(() => import("@/components/Map"), { ssr: false });
 
 export default function MapContainer({
   location,
@@ -23,7 +26,7 @@ export default function MapContainer({
           country={data.location.country}
         />
       </div>
-      <Map location={location} />
+      <DynamicMap location={location} />
     </div>
   );
 }

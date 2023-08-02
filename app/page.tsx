@@ -1,4 +1,3 @@
-import Map from "@/components/Map";
 import MapContainer from "@/components/MapContainer";
 import { IPLocation } from "@/types";
 import { LatLngExpression } from "leaflet";

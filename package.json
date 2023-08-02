@@ -16,7 +16,6 @@
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "leaflet": "^1.9.4",
-    "media-queries-in-react": "^0.1.11",
     "nanoid": "^4.0.2",
     "next": "13.4.12",
     "postcss": "8.4.27",

@@ -54,7 +54,7 @@ export default function Info({
   ];
 
   return (
-    <div className="flex bg-white flex-col md:flex-row max-w-[555px] md:max-w-[1110px] w-full justify-between items-center md:items-start gap-x-[32px] gap-y-[24px] md:h-[161px] rounded-[15px] shadow-3xl pt-[26px] md:pt-[37px] md:pb-[37px] pb-[24px] px-[32px]">
+    <div className="flex bg-white flex-col md:flex-row max-w-[555px] md:max-w-[1110px] w-full justify-between items-center md:items-start gap-x-[32px] gap-y-[24px] md:min-h-[161px] rounded-[15px] shadow-3xl pt-[26px] md:pt-[37px] md:pb-[37px] pb-[24px] px-[32px]">
       {info.map((data, index) => (
         <>
           <div className="flex-1 text-center md:text-left">
