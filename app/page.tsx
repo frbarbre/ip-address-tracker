@@ -17,7 +17,7 @@ export default async function Home() {
   return (
     <div>
       {ipDefaultResult?.ip ? (
-        <MapContainer location={location} />
+        <MapContainer location={location} data={ipDefaultResult} />
       ) : (
         <h2>Error: Try again later</h2>
       )}

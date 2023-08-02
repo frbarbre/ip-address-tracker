@@ -20,7 +20,7 @@ export default async function Search({
   return (
     <div>
       {searchIpResult?.ip ? (
-        <MapContainer location={location} />
+        <MapContainer location={location} data={searchIpResult} />
       ) : (
         <h2>Error: {params.IPaddress} is not a valid IP Address</h2>
       )}

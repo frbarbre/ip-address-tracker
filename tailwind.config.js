@@ -23,7 +23,10 @@ module.exports = {
         "map-desktop": "calc(100svh - 280px)",
       },
       boxShadow: {
-        '3xl': '0 50px 50px -25px rgba(0, 0, 0, 0.1)',
+        "3xl": "0 50px 50px -25px rgba(0, 0, 0, 0.1)",
+      },
+      screens: {
+        md: "1040px",
       },
     },
   },
